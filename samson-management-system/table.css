@@ -1,0 +1,82 @@
+* {
+    box-shadow: none !important;
+}
+
+body {
+    background: white;
+}
+
+.container {
+    width: 100% !important;
+    height: 100% !important; 
+}
+
+.data_table {
+    background: #181b20;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.table {
+    width: 100% !important;
+    height: 100% !important; 
+}
+
+.data_table table {
+    color: #fff;
+}
+
+.data_table table thead tr {
+    background: #0d6efd;
+}
+
+.data_table table tbody tr:nth-child(odd) {
+    background: #212429 !important;
+}
+
+.data_table table tbody tr:hover {
+    background: #212429 !important;
+    transition: 0.3s;
+}
+
+.data_table .btn {
+    padding: 5px 10px;
+    margin: 10px 3px;
+    background: #ffff84;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    transition: opacity 0.3s ease;
+}
+
+.data_table .btn:hover {
+    opacity: 0.7;
+}
+
+.col-sm-12.col-md-7 {
+    text-align: right !important; /* Ensures text aligns to the right */
+    display: flex !important;     /* Enables flexbox for better alignment */
+    justify-content: flex-end;    /* Pushes pagination to the far right */
+    align-items: center;          /* Centers pagination vertically */
+}
+
+.image-wrapper {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50% !important;
+}
+
+
